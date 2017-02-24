@@ -1,0 +1,64 @@
+\usepackage[utf8]{inputenc}
+\usepackage[danish]{babel}
+\usepackage{graphicx}
+\usepackage{pgf,tikz}
+
+\usetikzlibrary{arrows,positioning}
+\usepackage{url}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tkz-euclide}
+\usepackage{tikz-3dplot}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{gensymb}
+\usepackage{mathtools}
+
+\usepackage[xindy,toc]{glossaries}
+\makeglossaries
+\input{ordliste}
+
+\usepackage{pgfgantt}
+\usepackage{rotating}
+\usepackage[graphicx]{realboxes}
+
+\usepackage{inconsolata}
+
+\usepackage{color}
+\usepackage[toc,page]{appendix}
+
+\usepackage{float}
+\usepackage{longtable}
+
+\definecolor{pblue}{rgb}{0.13,0.13,1}
+\definecolor{pgreen}{rgb}{0,0.5,0}
+\definecolor{pred}{rgb}{0.9,0,0}
+\definecolor{pgrey}{rgb}{0.46,0.45,0.48}
+\usepackage[colorinlistoftodos]{todonotes}
+
+\usepackage{listings}
+\lstset{language=Java,
+  basicstyle=\tiny
+  showspaces=false,
+  showtabs=false,
+  breaklines=true,
+  showstringspaces=false,
+  breakatwhitespace=true,
+  commentstyle=\color{pgreen},
+  keywordstyle=\color{pblue},
+  stringstyle=\color{pred},
+  basicstyle=\ttfamily,
+  moredelim=[il][\textcolor{pgrey}]{},
+  moredelim=[is][\textcolor{pgrey}]{\%\%}{\%\%},
+  numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
+  numbersep=5pt,                   % how far the line-numbers are from the code
+  numberstyle=\tiny\color{pgrey}, % the style that is used for the line-numbers
+  frame=single,	                   % adds a frame around the code
+}
+
+
+\title{Database og GUI til product management, i Elektroshoppen}
+\author{Gruppe 10}
+\date{Forårs semester 2017}
